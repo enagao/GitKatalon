@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="framworkDemo" time="38" tests="0" failures="3" errors="0">
+   <testsuite name="framworkDemo" tests="0" failures="3" errors="0" time="38" timestamp="2018-05-03 19:24:44" hostname="edgar nagao - 192.168.0.12" id="Test Suites/framworkDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442"/>
+         <property name="logFiles" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/execution0.log"/>
+         <property name="attachments" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/1525393498997.png, /Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/1525393511298.png, /Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/1525393522867.png"/>
+         <property name="hostName" value="edgar nagao - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="7f131f16-fcce-fd45-806b-4df37514f473"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2018-05-03 19:24:45 - [TEST_CASE][FAILED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:24:45 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/SetUp/logIn' (Root cause: Call Test Case 'Test Cases/SetUp/logIn' failed)
+
+2018-05-03 19:24:45 - [TEST_CASE][FAILED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:24:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:24:51 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:24:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-03 19:24:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-03 19:24:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:24:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:24:51 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:24:52 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:24:52 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:24:52 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:24:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:24:52 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:24:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:24:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:24:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:24:57 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:24:58 - [MESSAGE][FAILED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression
+
+2018-05-03 19:24:59 - [MESSAGE][FAILED] - Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+[[ATTACHMENT|/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/1525393498997.png]]
+
+2018-05-03 19:24:59 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/SetUp/logIn' (Root cause: Call Test Case 'Test Cases/SetUp/logIn' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-03 19:24:45 - [TEST_CASE][FAILED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2018-05-03 19:24:59 - [TEST_CASE][FAILED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:24:59 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/SetUp/logIn' (Root cause: Call Test Case 'Test Cases/SetUp/logIn' failed)
+
+2018-05-03 19:24:59 - [TEST_CASE][FAILED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:24:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:24:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-03 19:25:04 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:25:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-03 19:25:04 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-03 19:25:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:25:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:25:04 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:25:04 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:25:04 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:25:04 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:25:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:25:04 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:25:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:25:10 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:25:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:25:10 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:25:11 - [MESSAGE][FAILED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression
+
+2018-05-03 19:25:12 - [MESSAGE][FAILED] - Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+[[ATTACHMENT|/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/1525393511298.png]]
+
+2018-05-03 19:25:12 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/SetUp/logIn' (Root cause: Call Test Case 'Test Cases/SetUp/logIn' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-03 19:24:59 - [TEST_CASE][FAILED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)"/>
+         <system-out><![CDATA[2018-05-03 19:25:12 - [TEST_CASE][FAILED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:25:12 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/SetUp/logIn' (Root cause: Call Test Case 'Test Cases/SetUp/logIn' failed)
+
+2018-05-03 19:25:12 - [TEST_CASE][FAILED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:25:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:25:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-03 19:25:15 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:25:15 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-03 19:25:16 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-03 19:25:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:25:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:25:16 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:25:16 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:25:16 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:25:16 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:25:16 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:25:16 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:25:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:25:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:25:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:25:21 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+
+2018-05-03 19:25:22 - [MESSAGE][FAILED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression
+
+2018-05-03 19:25:23 - [MESSAGE][FAILED] - Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)
+[[ATTACHMENT|/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_192442/1525393522867.png]]
+
+2018-05-03 19:25:23 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/SetUp/logIn' (Root cause: Call Test Case 'Test Cases/SetUp/logIn' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-03 19:25:12 - [TEST_CASE][FAILED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-03 19:24:44 - [TEST_SUITE][FAILED] - framworkDemo: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)]]></system-out>
+      <system-err><![CDATA[2018-05-03 19:24:44 - [TEST_SUITE][FAILED] - framworkDemo: Test Cases/Test/oneWayFlight FAILED because (of) Unable to verify text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present  using regular expression (Root cause: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is not present on page  using regular expression)]]></system-err>
+   </testsuite>
+</testsuites>

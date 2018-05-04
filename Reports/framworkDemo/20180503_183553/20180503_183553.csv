@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+framworkDemo,Firefox 59.0,,2018-05-03 18:35:56,2018-05-03 18:36:13,17.813s,PASSED
+,,,,,,
+Test Cases/Test/oneWayFlight,Firefox 59.0,Reserve one way floght,2018-05-03 18:35:56,2018-05-03 18:36:13,17.272s,PASSED
+callTestCase,Firefox 59.0,,2018-05-03 18:35:56,2018-05-03 18:36:08,11.232s,PASSED
+click,Firefox 59.0,,2018-05-03 18:36:08,2018-05-03 18:36:08,0.235s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 18:36:08,2018-05-03 18:36:08,0.411s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 18:36:08,2018-05-03 18:36:09,0.570s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 18:36:09,2018-05-03 18:36:09,0.526s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 18:36:09,2018-05-03 18:36:10,0.723s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 18:36:10,2018-05-03 18:36:11,0.377s,PASSED
+selectOptionByIndex,Firefox 59.0,,2018-05-03 18:36:11,2018-05-03 18:36:11,0.301s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 18:36:11,2018-05-03 18:36:11,0.674s,PASSED
+"Statement - firstClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(findFlightPage/input_servClass), ""value"", ""equals"", ""First"", true)",Firefox 59.0,,2018-05-03 18:36:11,2018-05-03 18:36:11,0.013s,PASSED
+click,Firefox 59.0,,2018-05-03 18:36:11,2018-05-03 18:36:12,0.223s,PASSED
+selectOptionByIndex,Firefox 59.0,,2018-05-03 18:36:12,2018-05-03 18:36:12,0.039s,PASSED
+click,Firefox 59.0,,2018-05-03 18:36:12,2018-05-03 18:36:12,0.404s,PASSED
+waitForPageLoad,Firefox 59.0,,2018-05-03 18:36:12,2018-05-03 18:36:12,0.008s,PASSED
+verifyTextPresent,Firefox 59.0,,2018-05-03 18:36:12,2018-05-03 18:36:13,0.765s,PASSED
+callTestCase,Firefox 59.0,,2018-05-03 18:36:13,2018-05-03 18:36:13,0.414s,PASSED

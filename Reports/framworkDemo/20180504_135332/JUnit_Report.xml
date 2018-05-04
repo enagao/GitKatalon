@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="framworkDemo" time="64" tests="3" failures="0" errors="0">
+   <testsuite name="framworkDemo" tests="3" failures="0" errors="0" time="64" timestamp="2018-05-04 13:53:34" hostname="edgar nagao - 192.168.0.12" id="Test Suites/framworkDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180504_135332"/>
+         <property name="logFiles" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180504_135332/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="edgar nagao - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="fec22b903dca750a816d2aa811e3c873"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="PASSED">
+         <system-out><![CDATA[2018-05-04 13:53:34 - [TEST_CASE][PASSED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight
+
+2018-05-04 13:53:35 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-04 13:53:35 - [TEST_CASE][PASSED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn
+
+2018-05-04 13:53:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-04 13:53:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-04 13:53:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-04 13:53:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-04 13:53:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:53:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:53:39 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-04 13:53:39 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-04 13:53:39 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-04 13:53:39 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-04 13:53:39 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-04 13:53:39 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-04 13:53:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-04 13:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-04 13:53:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:53:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:53:49 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-04 13:53:50 - [MESSAGE][PASSED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-04 13:53:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-04 13:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-04 13:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-04 13:53:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-04 13:53:50 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-04 13:53:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '8' are selected in object 'Object Repository/findFlightPage/select_OnMonth'  using regular expression
+
+2018-05-04 13:53:50 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/findFlightPage/select_OnMonth'  using regular expression
+
+2018-05-04 13:53:50 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '20' are selected in object 'Object Repository/findFlightPage/select_OnDay'  using regular expression
+
+2018-05-04 13:53:51 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/findFlightPage/select_OnDay'  using regular expression
+
+2018-05-04 13:53:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Acapulco' are selected in object 'Object Repository/findFlightPage/select_ArrivingIn'  using regular expression
+
+2018-05-04 13:53:51 - [MESSAGE][PASSED] - All options with value 'Acapulco' are selected in object 'Object Repository/findFlightPage/select_ArrivingIn'  using regular expression
+
+2018-05-04 13:53:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Portland' are selected in object 'Object Repository/findFlightPage/select_DepartingForm'  using regular expression
+
+2018-05-04 13:53:51 - [MESSAGE][PASSED] - All options with value 'Portland' are selected in object 'Object Repository/findFlightPage/select_DepartingForm'  using regular expression
+
+2018-05-04 13:53:51 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/findFlightPage/select_ReturningMonth'
+
+2018-05-04 13:53:51 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/findFlightPage/select_ReturningMonth'
+
+2018-05-04 13:53:51 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/findFlightPage/select_ReturningDay'  using regular expression
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/findFlightPage/select_ReturningDay'  using regular expression
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - Statement - firstClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(findFlightPage/input_servClass), "value", "equals", "First", true): Modify property of object successfully
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_servClass' is clicked on
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_servClass' is clicked on
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [0] are selected on object 'Object Repository/findFlightPage/select_Airline'
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/findFlightPage/select_Airline'
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/btn_Continue' is clicked on
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/btn_Continue' is clicked on
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Select your departure and return flight from the selections below.' is present on page  using regular expression
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Text 'Select your departure and return flight from the selections below.' is present on page  using regular expression
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TearDown/tearDown' successfully
+
+2018-05-04 13:53:52 - [TEST_CASE][PASSED] - Test Cases/TearDown/tearDown: Test Cases/TearDown/tearDown
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-04 13:53:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/tearDown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="PASSED">
+         <system-out><![CDATA[2018-05-04 13:53:52 - [TEST_CASE][PASSED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-04 13:53:52 - [TEST_CASE][PASSED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn
+
+2018-05-04 13:53:52 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-04 13:53:54 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-04 13:53:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-04 13:53:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-04 13:53:54 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:53:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:53:54 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-04 13:53:55 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-04 13:53:55 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-04 13:53:55 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-04 13:53:55 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-04 13:53:55 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-04 13:53:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-04 13:54:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:54:13 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-04 13:54:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-04 13:54:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-04 13:54:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '8' are selected in object 'Object Repository/findFlightPage/select_OnMonth'  using regular expression
+
+2018-05-04 13:54:13 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/findFlightPage/select_OnMonth'  using regular expression
+
+2018-05-04 13:54:13 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '20' are selected in object 'Object Repository/findFlightPage/select_OnDay'  using regular expression
+
+2018-05-04 13:54:14 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/findFlightPage/select_OnDay'  using regular expression
+
+2018-05-04 13:54:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'London' are selected in object 'Object Repository/findFlightPage/select_ArrivingIn'  using regular expression
+
+2018-05-04 13:54:14 - [MESSAGE][PASSED] - All options with value 'London' are selected in object 'Object Repository/findFlightPage/select_ArrivingIn'  using regular expression
+
+2018-05-04 13:54:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Paris' are selected in object 'Object Repository/findFlightPage/select_DepartingForm'  using regular expression
+
+2018-05-04 13:54:14 - [MESSAGE][PASSED] - All options with value 'Paris' are selected in object 'Object Repository/findFlightPage/select_DepartingForm'  using regular expression
+
+2018-05-04 13:54:14 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/findFlightPage/select_ReturningMonth'
+
+2018-05-04 13:54:14 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/findFlightPage/select_ReturningMonth'
+
+2018-05-04 13:54:14 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/findFlightPage/select_ReturningDay'  using regular expression
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/findFlightPage/select_ReturningDay'  using regular expression
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - Statement - firstClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(findFlightPage/input_servClass), "value", "equals", "First", true): Modify property of object successfully
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_servClass' is clicked on
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_servClass' is clicked on
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [0] are selected on object 'Object Repository/findFlightPage/select_Airline'
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/findFlightPage/select_Airline'
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/btn_Continue' is clicked on
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/btn_Continue' is clicked on
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Select your departure and return flight from the selections below.' is present on page  using regular expression
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Text 'Select your departure and return flight from the selections below.' is present on page  using regular expression
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TearDown/tearDown' successfully
+
+2018-05-04 13:54:15 - [TEST_CASE][PASSED] - Test Cases/TearDown/tearDown: Test Cases/TearDown/tearDown
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-04 13:54:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/tearDown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="PASSED">
+         <system-out><![CDATA[2018-05-04 13:54:15 - [TEST_CASE][PASSED] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-04 13:54:15 - [TEST_CASE][PASSED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn
+
+2018-05-04 13:54:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-04 13:54:17 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-04 13:54:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-04 13:54:17 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-04 13:54:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:54:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:54:17 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-04 13:54:17 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-04 13:54:17 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-04 13:54:17 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-04 13:54:17 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-04 13:54:17 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-04 13:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-04 13:54:36 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:54:36 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-04 13:54:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-04 13:54:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-04 13:54:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '8' are selected in object 'Object Repository/findFlightPage/select_OnMonth'  using regular expression
+
+2018-05-04 13:54:36 - [MESSAGE][PASSED] - All options with value '8' are selected in object 'Object Repository/findFlightPage/select_OnMonth'  using regular expression
+
+2018-05-04 13:54:36 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '20' are selected in object 'Object Repository/findFlightPage/select_OnDay'  using regular expression
+
+2018-05-04 13:54:37 - [MESSAGE][PASSED] - All options with value '20' are selected in object 'Object Repository/findFlightPage/select_OnDay'  using regular expression
+
+2018-05-04 13:54:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Paris' are selected in object 'Object Repository/findFlightPage/select_ArrivingIn'  using regular expression
+
+2018-05-04 13:54:37 - [MESSAGE][PASSED] - All options with value 'Paris' are selected in object 'Object Repository/findFlightPage/select_ArrivingIn'  using regular expression
+
+2018-05-04 13:54:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'London' are selected in object 'Object Repository/findFlightPage/select_DepartingForm'  using regular expression
+
+2018-05-04 13:54:37 - [MESSAGE][PASSED] - All options with value 'London' are selected in object 'Object Repository/findFlightPage/select_DepartingForm'  using regular expression
+
+2018-05-04 13:54:37 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [3] are selected on object 'Object Repository/findFlightPage/select_ReturningMonth'
+
+2018-05-04 13:54:37 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/findFlightPage/select_ReturningMonth'
+
+2018-05-04 13:54:37 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '23' are selected in object 'Object Repository/findFlightPage/select_ReturningDay'  using regular expression
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - All options with value '23' are selected in object 'Object Repository/findFlightPage/select_ReturningDay'  using regular expression
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - Statement - firstClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(findFlightPage/input_servClass), "value", "equals", "First", true): Modify property of object successfully
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_servClass' is clicked on
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_servClass' is clicked on
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - selectOptionByIndex: All options with index in [0] are selected on object 'Object Repository/findFlightPage/select_Airline'
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - All options with index in [0] are selected on object 'Object Repository/findFlightPage/select_Airline'
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/btn_Continue' is clicked on
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/btn_Continue' is clicked on
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Select your departure and return flight from the selections below.' is present on page  using regular expression
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Text 'Select your departure and return flight from the selections below.' is present on page  using regular expression
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TearDown/tearDown' successfully
+
+2018-05-04 13:54:38 - [TEST_CASE][PASSED] - Test Cases/TearDown/tearDown: Test Cases/TearDown/tearDown
+
+2018-05-04 13:54:38 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Browser is closed
+
+2018-05-04 13:54:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TearDown/tearDown' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-04 13:53:34 - [TEST_SUITE][PASSED] - framworkDemo: Test Cases/Test/oneWayFlight]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

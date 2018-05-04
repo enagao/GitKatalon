@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+framworkDemo,Firefox 59.0,,2018-05-03 19:00:13,2018-05-03 19:00:26,13.061s,ERROR
+,,,,,,
+Test Cases/Test/oneWayFlight,Firefox 59.0,Reserve a flight,2018-05-03 19:00:13,2018-05-03 19:00:26,12.361s,ERROR
+callTestCase,Firefox 59.0,,2018-05-03 19:00:14,2018-05-03 19:00:25,10.402s,PASSED
+click,Firefox 59.0,,2018-05-03 19:00:25,2018-05-03 19:00:25,0.235s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 19:00:25,2018-05-03 19:00:26,0.415s,PASSED
+selectOptionByValue,Firefox 59.0,,2018-05-03 19:00:26,2018-05-03 19:00:26,0.011s,PASSED

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reserve a flight</description>
+   <name>oneWayFlight</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34a9ea1f-1877-429e-909a-889ce36281eb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39cdc11c-ac27-499e-be4d-7ed7cd14c134</id>
+      <masked>false</masked>
+      <name>f_from</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51f43288-e0c1-493f-8dec-f7781f3627d2</id>
+      <masked>false</masked>
+      <name>f_in</name>
+   </variable>
+</TestCaseEntity>

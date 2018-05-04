@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+framworkDemo,Chrome 66.0.3359.139,,2018-05-03 18:34:07,2018-05-03 18:34:21,13.924s,PASSED
+,,,,,,
+Test Cases/Test/oneWayFlight,Chrome 66.0.3359.139,Reserve one way floght,2018-05-03 18:34:08,2018-05-03 18:34:21,13.476s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-03 18:34:08,2018-05-03 18:34:18,9.987s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 18:34:18,2018-05-03 18:34:18,0.089s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 18:34:18,2018-05-03 18:34:18,0.200s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 18:34:18,2018-05-03 18:34:19,0.241s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 18:34:19,2018-05-03 18:34:19,0.240s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 18:34:19,2018-05-03 18:34:19,0.452s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 18:34:19,2018-05-03 18:34:19,0.214s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-03 18:34:19,2018-05-03 18:34:20,0.161s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 18:34:20,2018-05-03 18:34:20,0.485s,PASSED
+"Statement - firstClass = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(findFlightPage/input_servClass), ""value"", ""equals"", ""First"", true)",Chrome 66.0.3359.139,,2018-05-03 18:34:20,2018-05-03 18:34:20,0.013s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 18:34:20,2018-05-03 18:34:20,0.051s,PASSED
+selectOptionByIndex,Chrome 66.0.3359.139,,2018-05-03 18:34:20,2018-05-03 18:34:20,0.078s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 18:34:20,2018-05-03 18:34:21,0.405s,PASSED
+waitForPageLoad,Chrome 66.0.3359.139,,2018-05-03 18:34:21,2018-05-03 18:34:21,0.011s,PASSED
+verifyTextPresent,Chrome 66.0.3359.139,,2018-05-03 18:34:21,2018-05-03 18:34:21,0.203s,PASSED
+callTestCase,Chrome 66.0.3359.139,,2018-05-03 18:34:21,2018-05-03 18:34:21,0.296s,PASSED

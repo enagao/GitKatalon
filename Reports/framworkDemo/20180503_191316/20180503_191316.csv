@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+framworkDemo,Firefox 59.0,,2018-05-03 19:13:19,2018-05-03 19:13:57,37.712s,FAILED
+,,,,,,
+Test Cases/Test/oneWayFlight,Firefox 59.0,Reserve a flight,2018-05-03 19:13:20,2018-05-03 19:13:34,14.760s,FAILED
+callTestCase,Firefox 59.0,,2018-05-03 19:13:20,2018-05-03 19:13:34,14.375s,FAILED
+,,,,,,
+Test Cases/Test/oneWayFlight,Firefox 59.0,Reserve a flight,2018-05-03 19:13:34,2018-05-03 19:13:46,11.238s,FAILED
+callTestCase,Firefox 59.0,,2018-05-03 19:13:35,2018-05-03 19:13:46,11.207s,FAILED
+,,,,,,
+Test Cases/Test/oneWayFlight,Firefox 59.0,Reserve a flight,2018-05-03 19:13:46,2018-05-03 19:13:57,11.037s,FAILED
+callTestCase,Firefox 59.0,,2018-05-03 19:13:46,2018-05-03 19:13:57,11.009s,FAILED

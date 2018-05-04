@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+framworkDemo,Chrome 66.0.3359.139,,2018-05-03 19:03:33,2018-05-03 19:03:43,10.107s,ERROR
+,,,,,,
+Test Cases/Test/oneWayFlight,Chrome 66.0.3359.139,Reserve a flight,2018-05-03 19:03:33,2018-05-03 19:03:43,9.436s,ERROR
+callTestCase,Chrome 66.0.3359.139,,2018-05-03 19:03:35,2018-05-03 19:03:43,7.737s,PASSED
+click,Chrome 66.0.3359.139,,2018-05-03 19:03:43,2018-05-03 19:03:43,0.066s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 19:03:43,2018-05-03 19:03:43,0.253s,PASSED
+selectOptionByValue,Chrome 66.0.3359.139,,2018-05-03 19:03:43,2018-05-03 19:03:43,0.004s,PASSED

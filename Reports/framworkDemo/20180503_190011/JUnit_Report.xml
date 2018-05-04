@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="framworkDemo" time="13" tests="0" failures="0" errors="1">
+   <testsuite name="framworkDemo" tests="0" failures="0" errors="1" time="13" timestamp="2018-05-03 19:00:13" hostname="edgar nagao - 192.168.0.12" id="Test Suites/framworkDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_190011"/>
+         <property name="logFiles" value="/Users/edgarnagao/Katalon Studio/framworkDemo/Reports/framworkDemo/20180503_190011/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="edgar nagao - 192.168.0.12"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="192.168.0.12"/>
+         <property name="sessionId" value="29dd7e16-2232-0f45-acef-70f5c05e3824"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test/oneWayFlight" classname="Test Cases/Test/oneWayFlight" status="ERROR">
+         <error type="ERROR" message="Test Cases/Test/oneWayFlight FAILED because (of) Variable 'flightFrom' is not defined for test case."/>
+         <system-out><![CDATA[2018-05-03 19:00:13 - [TEST_CASE][ERROR] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Variable 'flightFrom' is not defined for test case.
+
+2018-05-03 19:00:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-03 19:00:15 - [TEST_CASE][PASSED] - Test Cases/SetUp/logIn: Test Cases/SetUp/logIn
+
+2018-05-03 19:00:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:00:20 - [MESSAGE][PASSED] - Browser is opened with url: 'http://newtours.demoaut.com/mercuryreservation.php'
+
+2018-05-03 19:00:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-03 19:00:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-03 19:00:21 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:00:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:00:21 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:00:21 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userName'
+
+2018-05-03 19:00:21 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:00:21 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/welcomePage/input_userPassword'
+
+2018-05-03 19:00:21 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:00:21 - [MESSAGE][PASSED] - Object 'Object Repository/welcomePage/input_userName' has attribute 'value' with value '1234'
+
+2018-05-03 19:00:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/welcomePage/btn_signIn' is clicked on
+
+2018-05-03 19:00:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-05-03 19:00:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-05-03 19:00:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-03 19:00:25 - [MESSAGE][PASSED] - Text 'Use our Flight Finder to search for the lowest fare on participating airlines' is present on page  using regular expression
+
+2018-05-03 19:00:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SetUp/logIn' successfully
+
+2018-05-03 19:00:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-03 19:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/findFlightPage/input_RoundTrip' is clicked on
+
+2018-05-03 19:00:25 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-03 19:00:26 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/findFlightPage/dropdown_Passengers'  using regular expression
+
+2018-05-03 19:00:26 - [TEST_STEP][PASSED] - selectOptionByValue: Finding Test Object with id 'Object Repository/findFlightPage/select_DepartingForm']]></system-out>
+         <system-err><![CDATA[2018-05-03 19:00:13 - [TEST_CASE][ERROR] - Test Cases/Test/oneWayFlight: Test Cases/Test/oneWayFlight FAILED because (of) Variable 'flightFrom' is not defined for test case.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-03 19:00:13 - [TEST_SUITE][ERROR] - framworkDemo: Test Cases/Test/oneWayFlight FAILED because (of) Variable 'flightFrom' is not defined for test case.]]></system-out>
+      <system-err><![CDATA[2018-05-03 19:00:13 - [TEST_SUITE][ERROR] - framworkDemo: Test Cases/Test/oneWayFlight FAILED because (of) Variable 'flightFrom' is not defined for test case.]]></system-err>
+   </testsuite>
+</testsuites>

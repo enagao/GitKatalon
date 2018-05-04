@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>framworkDemo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-04T14:06:21</lastRun>
+   <mailRecipient>enagao@tiempodevelopment.com;edgarnagao@gmail.com;</mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6005f279-f221-40ff-b66a-943032a6df4b</testSuiteGuid>
+   <testCaseLink>
+      <guid>1aee0167-606d-461a-84c2-5c461435ca4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test/oneWayFlight</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e4a8af8a-2bdb-42db-9515-ff33302e679a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/dataPool</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e4a8af8a-2bdb-42db-9515-ff33302e679a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>f_from</value>
+         <variableId>39cdc11c-ac27-499e-be4d-7ed7cd14c134</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e4a8af8a-2bdb-42db-9515-ff33302e679a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>f_in</value>
+         <variableId>51f43288-e0c1-493f-8dec-f7781f3627d2</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
