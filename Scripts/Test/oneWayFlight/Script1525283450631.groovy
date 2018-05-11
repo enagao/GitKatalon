@@ -50,6 +50,10 @@ WebUI.waitForPageLoad(20)
 
 WebUI.verifyTextPresent('Select your departure and return flight from the selections below.', true)
 
+WebUI.acceptAlert()
+
+WebUI.comment('Add delay for commit test')
+
 WebUI.delay(1)
 
 WebUI.callTestCase(findTestCase('TearDown/tearDown'), [:], FailureHandling.STOP_ON_FAILURE)
